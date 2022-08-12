@@ -1,0 +1,145 @@
+body {
+    font-family: Poppins, Helvetica, sans-serif;
+    max-width: 1080px; 
+    margin: 0 auto !important; 
+    float: none !important; 
+    background-color: #f5f5f5;
+    padding-bottom: 8rem;
+    padding: 0 1rem 8rem 1rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h1 {
+    padding-top: .75rem;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    color:#517a8b;
+}
+
+h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color:#3e868e;
+    padding-top: 1.25rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+}
+
+button {
+    background-color: #517a8b;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 44px;
+    line-height: 20px;
+    list-style: none;
+    margin: 16px 16px 16px 0px;
+    outline: none;
+    padding: 12px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+button:hover,
+button:focus {
+    background-color: #3d5a80;
+  }
+
+.menu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fae782;
+    border-radius: 8px;
+}
+
+.nav {
+    display: block;
+    text-decoration:none;
+}
+
+.entry {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.first {
+    padding-top: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+a {
+    color:#517a8b;
+}
+
+a:visited {
+    color: #3d5a80;
+}
+
+.plain {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.section {
+    padding-top: 2.5rem;
+}
+
+.tag {
+    background-color: #fae782;
+    border-radius: 8px;
+    border-style: solid;
+    border-color:#FFC619;
+    color:#8A6700;
+    display: inline;
+    padding: 2px 8px 2px 8px;
+    font-style: italic;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .06rem;
+}
+
+.content {
+    margin-left: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    button {
+        display: block;
+	  width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
