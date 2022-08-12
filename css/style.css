@@ -46,7 +46,7 @@ li {
     font-size: 1.25rem;
 }
 
-button {
+.solo-link {
     background-color: #517a8b;
     border-radius: 8px;
     border-style: none;
@@ -72,8 +72,8 @@ button {
     -webkit-user-select: none;
   }
 
-button:hover,
-button:focus {
+.solo-link:hover,
+.solo-link:focus {
     background-color: #3d5a80;
   }
 
@@ -135,7 +135,7 @@ a:visited {
 }
 
 @media (max-width: 600px) {
-    button {
+    .solo-link {
         display: block;
         width: 100%;
     }
