@@ -46,7 +46,7 @@ li {
     font-size: 1.25rem;
 }
 
-.solo-link {
+.solo-link, .solo-link:visited {
     background-color: #517a8b;
     border-radius: 8px;
     border-style: none;
